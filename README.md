@@ -22,7 +22,7 @@ The author (GitHub: @python-hacked) is NOT liable for any misuse, illegal activi
 
 📌 How It Works
 You place an image in static/images/.
-Share a link like: http://your-server.com/view/image.jpg
+Share a link like: https://location-image-tracker.onrender.com/view/download.jpg
 The recipient sees a page asking them to click "Allow & View".
 Only if they manually allow location, their coordinates are sent to your server and logged.
 The image is shown regardless of their choice.
