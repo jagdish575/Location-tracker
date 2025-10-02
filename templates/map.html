@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Location Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { height: 100vh; width: 100vw; }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+  const imageId = "{{ image_id }}";
+  const map = L.map('map').setView([20, 0], 2); // default world view
+
+  // Add OpenStreetMap tiles
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+  }).addTo(map);
+
+  async function loadLocations() {
+    const res = await fetch(`/logs/${imageId}`);
+    const data = await res.json();
+
+    if (data.length === 0) {
+      alert("No locations found for this image");
+      return;
+    }
+
+    const coords = [];
+    data.forEach(rec => {
+      const p = rec.payload;
+      if (p.lat && p.lon && p.accuracy < 1000000) { // filter garbage
+        coords.push([p.lat, p.lon]);
+        L.marker([p.lat, p.lon])
+          .addTo(map)
+          .bindPopup(`Lat: ${p.lat}<br>Lon: ${p.lon}<br>Acc: ${p.accuracy}m<br>Time: ${p.ts}`);
+      }
+    });
+
+    if (coords.length > 0) {
+      map.fitBounds(coords);
+    }
+  }
+
+  loadLocations();
+  </script>
+</body>
+</html>
