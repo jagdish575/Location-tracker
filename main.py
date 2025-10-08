@@ -14,10 +14,10 @@ DB_PATH = BASE_DIR / "locations.db"
 IMAGE_FOLDER = Path("static/images")
 
 app = FastAPI(
-    # title="Image Location Tracker API",
-    # docs_url=None,        # disables Swagger UI (/docs)
-    # redoc_url=None,       # disables ReDoc UI (/redoc)
-    # openapi_url=None      # disables OpenAPI JSON (/openapi.json)
+    title="Image Location Tracker API",
+    docs_url=None,        # disables Swagger UI (/docs)
+    redoc_url=None,       # disables ReDoc UI (/redoc)
+    openapi_url=None      # disables OpenAPI JSON (/openapi.json)
 )
 # Mount static folder for images/css/js
 app.mount("/static", StaticFiles(directory="static"), name="static")
