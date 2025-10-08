@@ -21,7 +21,7 @@ app = FastAPI(
 )
 # Mount static folder for images/css/js
 app.mount("/static", StaticFiles(directory="static"), name="static")
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="static")
 
 
 # -------------------- DB INIT --------------------
