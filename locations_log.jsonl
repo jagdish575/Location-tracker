@@ -19,3 +19,41 @@
 {"received_at": "2025-10-02T16:17:46Z", "remote_addr": "127.0.0.1", "payload": {"image": "download.jpg", "lat": 28.5278917, "lon": 77.1939649, "accuracy": 20.893, "ts": "2025-10-02T16:17:46.319Z"}}
 {"received_at": "2025-10-02T16:17:46Z", "remote_addr": "127.0.0.1", "payload": {"image": "download.jpg", "lat": 28.5278917, "lon": 77.1939649, "accuracy": 20.893, "ts": "2025-10-02T16:17:46.603Z"}}
 {"received_at": "2025-10-02T16:18:17Z", "remote_addr": "127.0.0.1", "payload": {"image": "download.jpg", "lat": 28.6490624, "lon": 77.2243456, "accuracy": 744003.255962633, "ts": "2025-10-02T16:18:17.311Z"}}
+{"received_at": "2025-10-08T08:02:19Z", "remote_addr": "127.0.0.1", "payload": {"image": "download.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:02:19.695Z"}}
+{"received_at": "2025-10-08T08:10:23Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:10:23.390Z"}}
+{"received_at": "2025-10-08T08:12:33Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.701649, "lon": 75.8629714, "accuracy": 14.111, "ts": "2025-10-08T08:12:33.557Z"}}
+{"received_at": "2025-10-08T08:13:57Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.7016422, "lon": 75.8629747, "accuracy": 20, "ts": "2025-10-08T08:13:57.618Z"}}
+{"received_at": "2025-10-08T08:14:31Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:14:31.500Z"}}
+{"received_at": "2025-10-08T08:16:09Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:16:09.743Z"}}
+{"received_at": "2025-10-08T08:17:31Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:17:31.235Z"}}
+{"received_at": "2025-10-08T08:17:46Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:17:46.982Z"}}
+{"received_at": "2025-10-08T08:17:57Z", "remote_addr": "127.0.0.1", "payload": {"image": "linkdin.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:17:57.248Z"}}
+{"received_at": "2025-10-08T08:20:06Z", "remote_addr": "127.0.0.1", "payload": {"image": "9f4e7fdac0b542908155263f663bac79.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:20:06.916Z"}}
+{"received_at": "2025-10-08T08:23:23Z", "remote_addr": "127.0.0.1", "payload": {"image": "ea45bff28539425ca7c62309d6f88e35.jpg", "latitude": 22.69184, "longitude": 75.8874112, "accuracy": 141772.71796095898}}
+{"received_at": "2025-10-08T08:23:50Z", "remote_addr": "127.0.0.1", "payload": {"image": "6431c973586c4645848979e2d44f5b48.jpg", "latitude": 22.69184, "longitude": 75.8874112, "accuracy": 141772.71796095898}}
+{"received_at": "2025-10-08T08:34:53Z", "remote_addr": "127.0.0.1", "payload": {"image": "6431c973586c4645848979e2d44f5b48.jpg", "error": "User denied Geolocation"}}
+{"received_at": "2025-10-08T08:35:21Z", "remote_addr": "127.0.0.1", "payload": {"image": "662710734dd7480a90da3c2c336ca2ad.jpg", "error": "User denied Geolocation"}}
+{"received_at": "2025-10-08T08:37:26Z", "remote_addr": "127.0.0.1", "payload": {"image": "9745749f2e5d44c8995f34f035f705d4.jpg", "latitude": 22.69184, "longitude": 75.8874112, "accuracy": 141772.71796095898}}
+{"received_at": "2025-10-08T08:39:44Z", "remote_addr": "127.0.0.1", "payload": {"image": "9745749f2e5d44c8995f34f035f705d4.jpg", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:39:44.901Z"}}
+{"received_at": "2025-10-08T08:54:12Z", "remote_addr": "127.0.0.1", "payload": {"image": "46361e4cdd384d74b5f45dea0dc3f30b.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T08:54:12.953Z"}}
+{"received_at": "2025-10-08T08:56:43Z", "remote_addr": "127.0.0.1", "payload": {"image": "46361e4cdd384d74b5f45dea0dc3f30b.png", "lat": 22.7016495, "lon": 75.8629755, "accuracy": 14.282, "ts": "2025-10-08T08:56:43.060Z"}}
+{"received_at": "2025-10-08T08:57:00Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.7016495, "lon": 75.8629755, "accuracy": 14.282, "ts": "2025-10-08T08:57:00.301Z"}}
+{"received_at": "2025-10-08T08:59:05Z", "remote_addr": "127.0.0.1", "payload": {}}
+{"received_at": "2025-10-08T09:00:42Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:00:42.763Z"}}
+{"received_at": "2025-10-08T09:00:43Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:00:43.984Z"}}
+{"received_at": "2025-10-08T09:00:45Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:00:45.204Z"}}
+{"received_at": "2025-10-08T09:00:46Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:00:46.079Z"}}
+{"received_at": "2025-10-08T09:00:46Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:00:46.714Z"}}
+{"received_at": "2025-10-08T09:00:47Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:00:47.345Z"}}
+{"received_at": "2025-10-08T09:23:00Z", "remote_addr": "127.0.0.1", "payload": {}}
+{"received_at": "2025-10-08T09:23:40Z", "remote_addr": "127.0.0.1", "payload": {}}
+{"received_at": "2025-10-08T09:24:18Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:24:18.121Z"}}
+{"received_at": "2025-10-08T09:24:26Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:24:26.544Z"}}
+{"received_at": "2025-10-08T09:24:51Z", "remote_addr": "127.0.0.1", "payload": {}}
+{"received_at": "2025-10-08T09:24:52Z", "remote_addr": "127.0.0.1", "payload": {}}
+{"received_at": "2025-10-08T09:25:17Z", "remote_addr": "127.0.0.1", "payload": {}}
+{"received_at": "2025-10-08T09:29:00Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:29:00.102Z"}}
+{"received_at": "2025-10-08T09:29:19Z", "remote_addr": "127.0.0.1", "payload": {"image": "d62f8fba900f40818cc729f3914ac1e6.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:29:19.801Z"}}
+{"received_at": "2025-10-08T09:49:53Z", "remote_addr": "127.0.0.1", "payload": {"image": "f250afd5d590472ca360d81a279597d2.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:49:53.539Z"}}
+{"received_at": "2025-10-08T09:51:17Z", "remote_addr": "127.0.0.1", "payload": {"image": "ded4d52b251b4285a93b922dde1337ae.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:51:17.457Z"}}
+{"received_at": "2025-10-08T09:54:40Z", "remote_addr": "127.0.0.1", "payload": {"image": "4676bcd1b6314455905e8a5ec9398abb.png", "lat": 22.69184, "lon": 75.8874112, "accuracy": 141772.71796095898, "ts": "2025-10-08T09:54:40.130Z"}}

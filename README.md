@@ -17,12 +17,12 @@ Using this script to deceive users (e.g., sending fake image links to secretly o
 🚫 A violation of human rights and digital ethics,
 🚫 Potentially punishable by fines or imprisonment.
 You are fully responsible for how you use this code.
-The author (GitHub: @python-hacked) is NOT liable for any misuse, illegal activity, or harm caused by third parties.
+The author (GitHub: jagdish575 ) is NOT liable for any misuse, illegal activity, or harm caused by third parties.
 🔍 Important: Modern browsers only share location if the user clicks "Allow". This script cannot bypass browser security. Any attempt to trick users into granting access may leave digital traces (IP logs, server records, browser fingerprints), making misuse easily traceable. 
 
 📌 How It Works
 You place an image in static/images/.
-Share a link like: https://location-image-tracker.onrender.com/view/download.jpg
+Share a link like: 
 The recipient sees a page asking them to click "Allow & View".
 Only if they manually allow location, their coordinates are sent to your server and logged.
 The image is shown regardless of their choice.
@@ -45,4 +45,4 @@ Do not deploy this in production or use it against real users without informed c
 Respect privacy. Always ask. Never deceive. 
 
 ✅ Author: Not affiliated with any malicious activity.
-✅ GitHub: @python-hacked — Educational projects only.
+✅ GitHub: jagdish575 — Educational projects only.
