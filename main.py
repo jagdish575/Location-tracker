@@ -1,3 +1,4 @@
+
 from fastapi import FastAPI, Request, HTTPException, File, UploadFile
 from fastapi.responses import HTMLResponse, JSONResponse,FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -218,15 +219,9 @@ async def get_last_location(image_id: str):
 async def dashboard(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
-
-
-app = FastAPI()
-
 @app.get("/ads.txt")
 async def serve_ads():
-    file_path = os.path.join(os.path.dirname(__file__), "ads.txt")
-    return FileResponse(file_path, media_type="text/plain")
-
+    return FileResponse("ads.txt", media_type="text/plain")
 @app.get("/i/{image_id}", response_class=HTMLResponse)
 async def image_tracker(request: Request, image_id: str):
     image_path = IMAGE_FOLDER / image_id
